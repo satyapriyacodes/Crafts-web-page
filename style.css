@@ -1,0 +1,272 @@
+header{
+    height: 100px;
+    background-color:#ffd6a7;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+li{
+    color: rgb(241, 15, 15);
+    list-style-type: none;
+    padding-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+ 
+}
+ul{
+   padding: 0;
+   margin: 0;
+    display: flex;
+    width: auto; 
+}
+body{
+   margin: 0px;
+}
+.logo-ls{
+    padding-left: 50px;
+    margin-right: auto;
+}
+.land-section {
+    position: relative;
+    height: 600px;
+}
+.land-img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.disc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0; 
+}
+.land-title{
+    position: static;
+    color: white;
+    font-size: 42px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+.card{
+    width: 250px;
+
+    height: 500px; 
+    margin: 10px;
+    
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+
+    height: 350px; 
+    object-fit: cover;
+}
+
+.card p {
+    padding: 10px 5px;
+    line-height: 1.4;
+    font-size: 14px;
+    color: #333;
+}
+.card{
+    width: 250px;
+    /* Increased height to accommod
+    height: 520px; 
+    margin: 10px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover{
+    /* Adjusted hover size to match t
+    width: 260px;
+    height: 530px;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    margin: 50px auto; /* Centered the div on the page */
+    max-width: 800px; 
+    line-height: 1.6;
+    font-size: 18px;
+    color: #555;
+}
+.about::first-letter{
+padding-left: 0;
+}
+
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    margin: 50px auto; 
+    max-width: 800px; 
+    line-height: 1.6;
+    font-size: 18px;
+    color: #555;
+}
+
+.about h3 {
+    text-align: center;
+}
+.about p {
+    text-align: center;
+}
+
+footer{
+    height: 400px;
+    background-color: black;
+    margin-top: 200px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.back-to-top {
+    position: fixed;  
+    bottom: 20px;    
+    right: 20px;
+    background-color: #f15a24; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #c94b1f; 
+}
+
+
+body{
+   margin: 0px;
+   scroll-behavior: smooth;
+}
+
+footer{
+
+    height: auto; 
+    background-color: black;
+    margin-top: 50px; 
+    color: white; 
+    padding: 20px 0;
+}
+
+.footer-content {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.footer-links-group {
+    display: flex;
+    justify-content: space-between; 
+    padding-bottom: 20px;
+}
+
+.footer-links-group ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-links-group li {
+    
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.footer-links-group a {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer-legal-group {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.legal-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+   
+    margin-right: 30px; 
+}
+
+
+.footer-legal-group .legal-link:first-child {
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 15px 0 5px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #999; /* Slightly lighter color for copyright */
+}
+
+.footer-divider {
+    border: none;
+    border-top: 1px solid #333; /* Darker gray line for separation */
+    margin: 0;
+}
+
+.footer-divider-thin {
+    border: none;
+    border-top: 1px solid #222; /* Very dark line above copyright */
+    margin: 0;
+}
+
+/* Retaining the original anchor tag style for global links, 
+   but the specific footer links above will override it. */
+a{
+    color: white;
+    text-decoration: none;
+}
